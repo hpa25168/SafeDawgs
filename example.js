@@ -1,9 +1,11 @@
 const loginPage = document.querySelector('button');
 loginPage.textContent = "Login/Sign up here!";
 
-loginPage.addEventListener('click', updateName);
+loginPage.addEventListener('click', loginPageEvent);
 
-function updateName() {
-  let name = prompt('Enter a name');
-  loginPage.textContent = 'Your name is: ' + name;
+
+function loginPageEvent() {
+  background(173, 239, 255);
+  
+  
 }
