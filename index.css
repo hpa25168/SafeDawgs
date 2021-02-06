@@ -1,16 +1,17 @@
-
 .button1 {
-  text-align:center;
+  text-align: center;
   display: inline-block;
 }
-h1 { 
+h1 {
   text-align: center;
-  color: 
+  color: #aac7ae;
+  font-size: 70px;
+  height: 50px;
 }
-body { 
+body {
   background: #ecd9bc;
 }
 .review {
   display: block;
-  position
+  position: Fixed;
 }
