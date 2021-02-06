@@ -1,4 +1,12 @@
 
 .button1 {
-  color:"RED";
+  text-align:center;
+  border: none;
+display: inline-block;
+}
+h1 { 
+  text-align: center; 
+}
+body { 
+  background: #ecd9bc;
 }
