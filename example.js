@@ -1,9 +1,9 @@
-const myHeading = document.querySelector('Button');
-myHeading.textContent = "Click 'here' to enter your name";
+const loginPage = document.querySelector('button');
+loginPage.textContent = "Login/Sign up here!";
 
-myHeading.addEventListener('click', updateName);
+loginPage.addEventListener('click', updateName);
 
 function updateName() {
   let name = prompt('Enter a name');
-  myHeading.textContent = 'Your name is: ' + name;
+  loginPage.textContent = 'Your name is: ' + name;
 }
