@@ -1,12 +1,16 @@
 
 .button1 {
   text-align:center;
-  border: none;
-display: inline-block;
+  display: inline-block;
 }
 h1 { 
-  text-align: center; 
+  text-align: center;
+  color: 
 }
 body { 
   background: #ecd9bc;
+}
+.review {
+  display: block;
+  position
 }
