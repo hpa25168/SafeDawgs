@@ -5,13 +5,14 @@
       <meta charset="utf-8">
     </title>
     <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="stylesheet" href="index.css" />
       <style></style>
+      <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
     </head>
     <body>
       <h1>
-        SafeDawgs 
+        SafeDawgs
       </h1>
       <img
         class="fit-picture"
@@ -21,17 +22,23 @@
         height="80"
         alt="sd Logo"
       />
-      <div class="review">      
-      <button type="button" style="position:fixed;top:60px;right : 300px;">
-        <script src="example.js"></script>
-      </button>
-        </div>
-        <button class="button button1" style="position:fixed;top:60px;left:50px;">
-        Leave a review 
+      <div class="review">
+        <button id="btn-login" onclick="login()">Log in</button>
+        <button id="btn-logout" onclick="logout()">Log out</button>
+
+        <button type="button" style="position:fixed;top:60px;right : 300px;">
+          <script src="example.js"></script>
+        </button>
+      </div>
+      <button class="button button1" style="position:fixed;top:60px;left:50px;">
+        Leave a review
       </button>
       <div>
-        
+      <img src=""
       </div>
+
+      <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
+      <script src="js/app.js"></script>
     </body>
   </main>
 </html>
