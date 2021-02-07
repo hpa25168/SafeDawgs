@@ -22,10 +22,25 @@
         height="80"
         alt="sd Logo"
       />
-      <div class="review">
-        <button id="btn-login" onclick="login()">Log in</button>
-        <button id="btn-logout" onclick="logout()">Log out</button>
+      <div class="review container">
+        <div class="row">
+          <div class="col-sm-4">
+            <button class="button button1">Leave a review</button>
+          </div>
+          <div class="col-sm-4">
+            <button class="button" id="btn-login" onclick="login()">
+              Log in
+            </button>
+          </div>
+          <div class="col-sm-4">
+            <button class="button" id="btn-logout" onclick="logout()">
+              Log out
+            </button>
+          </div>
+        </div>
+      </div>
 
+      <div>
         <button type="button" style="position:fixed;top:60px;right : 300px;">
           <script src="example.js"></script>
         </button>
@@ -34,7 +49,7 @@
         Leave a review
       </button>
       <div>
-      <img src="">
+        <img src="" />
       </div>
 
       <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
